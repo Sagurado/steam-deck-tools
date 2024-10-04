@@ -61,6 +61,10 @@ namespace SteamController.Profiles.Predefined
             c.Keyboard[VirtualKeyCode.RETURN] = c.Steam.BtnA;
             c.Keyboard[VirtualKeyCode.BACK] = c.Steam.BtnB;
 
+			c.Keyboard[VirtualKeyCode.APPS] = c.Steam.BtnQuickAccess;
+			c.Keyboard[VirtualKeyCode.BROWSER_FORWARD] = c.Steam.BtnR1;
+			c.Keyboard[VirtualKeyCode.BROWSER_BACK] = c.Steam.BtnL1;
+
             return Status.Continue;
         }
 
